@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+.blank{
+color: white;
+background-color: #282c34;
+text-align: center;
+top:50%;
+}
+
+.blank :hover{
+background-color: aqua;
+
+}

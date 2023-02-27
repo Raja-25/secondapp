@@ -11,3 +11,178 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.cal {
+border-radius: 70%;
+background-color: #0c50e4;
+color: white;
+border: none;
+padding: 5px;
+height: 70px;
+width: 70px;
+box-shadow: 0 2px 4px rgb(0, 0, 0);
+cursor: pointer;
+transition: all 0.2s ease;
+position: absolute;
+top: 45%;
+right: 2%;
+
+}
+.cal img{
+width: 60%;
+height: 80%;
+
+}
+.grid{
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top:25%;
+  right:37.5%;
+  width: 450px;
+  height: 250px;
+  background-color: #eeeeee;
+  border: 3px solid #bcbcbc;
+  border-radius: 5%;
+  box-shadow: -11px 12px 139px 1px rgba(0,0,0,0.71);
+-webkit-box-shadow: -11px 12px 139px 1px rgba(0,0,0,0.71);
+-moz-box-shadow: -11px 12px 139px 1px rgba(0,0,0,0.71);
+background-image: linear-gradient(to top, rgba(0,0,0,0) 70%, rgb(0, 0, 0) 2px);
+}
+
+.heading1{
+    position: absolute;
+top: 3%;
+right: 2%;
+color: #eeeeee;
+}
+.heading2{
+    position: absolute;
+top: 15%;
+color: #eeeeee;
+right:22%;
+
+}
+.logo{
+    position: absolute;
+  left:2%  ;
+  height: auto;
+  width: 74px;
+}
+.myimg{
+position: absolute;
+height: auto;
+width: 90px;
+top:55%;
+left:0%;
+}
+.chip{
+    position: absolute;
+height: auto;
+width: 50px; 
+top:35%;
+left:9.5%;
+}
+.barcode{
+
+position: absolute;
+height: 50px;
+width: 290px; 
+top:32%;
+left:25%;
+opacity: 90%;
+
+}
+.name{
+    position: absolute; 
+    top:52%;
+left:25%;
+color: rgb(0, 0, 0);
+font-weight: bolder;
+
+}
+.build{
+position: absolute;
+height: 170px;
+width:350px;  
+left:95px;
+bottom:0%;
+opacity: 45%;
+}
+.idno{
+    position: absolute; 
+    top:61%;
+left:25%;
+font-weight: bold;
+}
+#branch{
+    position: absolute; 
+    top:61%;
+left:48%;
+font-weight: bold;
+}
+.dob{
+    position: absolute; 
+    top:68%;
+left:25%;
+font-weight: bold;  
+}
+.parent{
+    position: absolute; 
+    top:75%;
+left:25%;
+font-weight: bold;  
+}
+.dean{
+    position: absolute; 
+    bottom: -8%;
+left:25%; 
+color: rgba(0, 0, 0, 0.788);  
+}
+.sign1{
+position: absolute;
+height: 40px;
+width:145px;  
+left:100px;
+bottom:2%;
+opacity: 70%;
+}
+
+.sign2{
+    position: absolute;
+height: 50px;
+width:150px;  
+left:65%;
+bottom:1%;
+opacity: 100%;
+}
+.std{
+    position: absolute; 
+    bottom: -8%;
+right:2%; 
+color: rgba(0, 0, 0, 0.788);   
+}
+.r1{
+    position: absolute; 
+    font-weight: bold;  
+    top: 55%;
+    left:80%;
+}
+.r2{
+    position: absolute; 
+    font-weight: bold;  
+    top: 64%;
+    left:82%;  
+}
+.heading{
+
+left:43%;
+top:15%;
+    position: absolute;
+}
+.b1 {
+    color: var(--button-color);
+    background-color: var(--button-background-color);
+    border-radius: var(--border-radius);
+    --button-color: black;
+    --button-background-color: silver;
+}
